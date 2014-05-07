@@ -9,4 +9,3 @@ Categories=Development;IDE;
 Terminal=false
 StartupNotify=true
 StartupWMClass=jetbrains-idea
-OnlyShowIn=Old;
