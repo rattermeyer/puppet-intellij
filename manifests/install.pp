@@ -9,7 +9,7 @@ class intellij::install {
 
 	file { '/opt/intellij/current':
 		ensure => 'link',
-		target => "/opt/intellij/intellij-IU-${intellij::build}",
+		target => "/opt/intellij/idea-IU-${intellij::build}",
 		require => Archive["intellij-${intellij::version}"]
 	}
 	
