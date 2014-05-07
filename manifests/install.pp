@@ -3,7 +3,7 @@ class intellij::install {
 		ensure 	=> present,
 		url 	=> "http://download-ln.jetbrains.com/idea/ideaIU-${intellij::version}.tar.gz",
 		target 	=> '/opt/intellij',
-		timeout => 1200,
+		timeout => 1800,
 		checksum => false
 	}
 
