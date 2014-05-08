@@ -30,7 +30,8 @@ class intellij::install (
 	}~>
 	file { ["/home/${owner}/.IntelliJIdea13","/home/${owner}/.IntelliJIdea13/system"] :
 		ensure => 'directory',
-		owner	=> "${owner}"
+		owner	=> "${owner}",
+		group	=> "${owner}"
 	}
 
 }
