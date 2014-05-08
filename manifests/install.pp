@@ -1,4 +1,6 @@
-class intellij::install {
+class intellij::install (
+	$owner       = dev
+) {
 	archive { "intellij-${intellij::version}":
 		ensure 	=> present,
 		url 	=> "http://download-ln.jetbrains.com/idea/ideaIU-${intellij::version}.tar.gz",
