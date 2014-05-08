@@ -26,7 +26,7 @@ class intellij::install {
                 group   => 'dev',
 		require => File['/home/dev/Desktop']
 	}~>
-	file { "/home/${owner}/.IntelliJIdea13/system":
+	file { ["/home/${owner}/.IntelliJIdea13","/home/${owner}/.IntelliJIdea13/system"] :
 		ensure => 'directory',
 		recurse => true,
 		owner	=> "${owner}"
