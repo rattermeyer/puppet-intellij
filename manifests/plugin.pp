@@ -15,6 +15,7 @@ define intellij::plugin (
 	file { "/home/${owner}/.IntelliJIdea13/config/plugins/${name}":
 		ensure => 'directory',
 		recurse => true,
-		owner	=> "${owner}"
+		owner	=> "${owner}",
+		group	=> "${owner}"
 	}
 }
