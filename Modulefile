@@ -9,4 +9,3 @@ project_page 'UNKNOWN'
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
-dependency 'camptocamp/archive', '>= 0.0.1 '
