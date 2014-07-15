@@ -36,8 +36,8 @@
 # Copyright 2014 Your name here, unless otherwise noted.
 #
 class intellij (
-	$version = '13.1.2',
-	$build   = '135.690'
+	$version = '13.1.3',
+	$build   = '135.909'
 ){
 	include intellij::install
 }
