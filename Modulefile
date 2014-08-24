@@ -1,4 +1,4 @@
-name    'rat/intellij'
+name    'rattermeyer-intellij'
 version '0.1.0'
 source 'UNKNOWN'
 author 'Richard Attermeyer'
